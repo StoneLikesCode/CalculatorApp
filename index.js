@@ -15,3 +15,7 @@ function calculate(){
         display.value = "ERROR";
     }
 }
+function goBack(){ 
+    window.history.back();
+    console.log('click');
+}
